@@ -36,6 +36,13 @@ header {
     font-size: 35px;
 }
 
+ul {
+    list-style-type: none;
+    z-index: 1;
+    height: 100%;
+    font-size: 30px;
+}
+
 
 /* Css pour la banière sous le header */
 
