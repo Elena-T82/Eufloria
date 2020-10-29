@@ -101,3 +101,17 @@ footer p {
 .logo {
     width: 15%;
 }
+
+
+/* Css page partenaire */
+
+.borderLarge {
+    border-radius: 40px;
+}
+
+.imgSlider {
+    width: 30%;
+    /* height: 400px; */
+    /* text-align: center; */
+    margin: auto;
+}
