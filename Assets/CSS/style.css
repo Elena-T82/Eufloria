@@ -38,7 +38,7 @@ header {
 
 ul {
     list-style-type: none;
-    z-index: 1;
+    z-index: 2;
     height: 100%;
     font-size: 30px;
 }
@@ -133,7 +133,7 @@ footer p {
     }
     .potFleur img {
         position: initial;
-        width: 70%;
+        width: 80%;
         height: auto;
         margin-bottom: 30px;
         box-shadow: 0px 4px 20px #272727;
@@ -141,7 +141,64 @@ footer p {
     .salopette img {
         position: initial;
         margin-bottom: 40px;
-        width: 70%;
+        width: 80%;
         box-shadow: 0px 4px 20px #272727;
+    }
+    .galerie img {
+        height: 500px;
+    }
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .galerie img {
+        height: 400px;
+    }
+    iframe {
+        width: 325px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .maitreMot {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px !important;
+    }
+    .tailleSup {
+        font-size: 22px !important;
+    }
+    .galerie img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    iframe {
+        width: 250px;
+        height: 100px;
+    }
+    h1 {
+        font-size: 25px !important;
+    }
+    header img {
+        width: 50%;
+    }
+    ul {
+        font-size: 16px;
     }
 }
